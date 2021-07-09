@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "arceus_mineral_mod",
+  "version": "${version}",
+  "name": "Arc Fabric Sample",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/arceus_mineral_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.arceus.mineral.mod.Main"
+    ]
+  },
+  "mixins": [
+    
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.3",
+    "java": ">=1.8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "s s",
+    "s s"
+  ],
+  "key": {
+    "s": {
+      "item": "arceus_mineral_mod:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "arceus_mineral_mod:silver_leggings",
+    "count": 1
+  }
+}

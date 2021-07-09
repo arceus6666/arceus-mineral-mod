@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "arceus_mineral_mod:raw_silver"
+  },
+  "result": "arceus_mineral_mod:silver_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

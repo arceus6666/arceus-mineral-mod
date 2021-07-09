@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "arceus_mineral_mod:raw_silver_block"
+  },
+  "result": "arceus_mineral_mod:silver_block",
+  "experience": 6,
+  "cookingtime": 700
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "s": {
+      "item": "arceus_mineral_mod:silver_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arceus_mineral_mod:silver_pickaxe",
+    "count": 1
+  }
+}

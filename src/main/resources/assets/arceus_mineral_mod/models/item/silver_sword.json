@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "arceus_mineral_mod:item/silver_sword"
+  }
+}
