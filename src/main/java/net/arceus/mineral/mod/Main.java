@@ -63,17 +63,11 @@ public class Main implements ModInitializer {
   public static final Block silver_block = new SilverBlock();
   public static final Block silver_ore = new SilverOre();
   public static final Block raw_silver_block = new RawSilverBlock();
-  // public static final Block silver_block = new
-  // Block(FabricBlockSettings.of(Material.METAL)
-  // .breakByTool(FabricToolTags.PICKAXES, 2)
-  // .requiresTool()
-  // );
   // silver - items
   public static final Item raw_silver = new RawSilver(new FabricItemSettings().group(ItemGroup.MISC));
   public static final Item silver_ingot = new SilverIngot(new FabricItemSettings().group(ItemGroup.MISC));
   // silver - materials
-  // public static final ToolMaterial silver_tool_material = new
-  // SilverToolMaterial();
+  // public static final ToolMaterial silver_tool_material = new SilverToolMaterial();
   public static final ArmorMaterial silver_armor_material = new SilverArmorMaterial();
   // silver - tools
   public static final ToolItem silver_shovel = new ShovelItem(SilverToolMaterial.INSTANCE, 5.0F, -1.0F,
