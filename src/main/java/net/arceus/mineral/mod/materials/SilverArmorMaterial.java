@@ -1,6 +1,6 @@
 package net.arceus.mineral.mod.materials;
 
-import net.arceus.mineral.mod.Main;
+import net.arceus.mineral.mod.Mod;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -36,7 +36,7 @@ public class SilverArmorMaterial implements ArmorMaterial {
 
   @Override
   public Ingredient getRepairIngredient() {
-    return Ingredient.ofItems(Main.silver_ingot);
+    return Ingredient.ofItems(Mod.silver_ingot);
   }
 
   @Override

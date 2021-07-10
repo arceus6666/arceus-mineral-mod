@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "arceus_mineral_mod",
   "version": "${version}",
-  "name": "Arc Fabric Sample",
+  "name": "Arceus Mineral Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "arceus"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.arceus.mineral.mod.Main"
+      "net.arceus.mineral.mod.Mod"
     ]
   },
   "mixins": [

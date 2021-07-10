@@ -1,6 +1,6 @@
 package net.arceus.mineral.mod.materials;
 
-import net.arceus.mineral.mod.Main;
+import net.arceus.mineral.mod.Mod;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -35,7 +35,7 @@ public class SilverToolMaterial implements ToolMaterial {
 
   @Override
   public Ingredient getRepairIngredient() {
-    return Ingredient.ofItems(Main.silver_ingot);
+    return Ingredient.ofItems(Mod.silver_ingot);
   }
 
 }
